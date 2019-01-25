@@ -5,6 +5,6 @@
 
   <platform name="android">
     <framework src="build.gradle" custom="true" type="gradleReference" />
-    <asset src="proguard-custom.txt" target="proguard-custom.txt" />
+    <source-file src="proguard-custom.txt" target-dir="cordova-plugin-proguard/proguard-custom.txt" />
   </platform>
 </plugin>
